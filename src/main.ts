@@ -3,6 +3,7 @@ import typescriptLogo from './typescript.svg';
 import viteLogo from '/vite.svg';
 import { setupCounter } from './counter.ts';
 import './01-type-annotation.ts';
+import './04-functions.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
