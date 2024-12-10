@@ -2,7 +2,8 @@ import './style.css';
 import typescriptLogo from './typescript.svg';
 import viteLogo from '/vite.svg';
 import { setupCounter } from './counter.ts';
-import './tutorial.ts';
+import './01-type-annotation.ts';
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="/tasks" target="_blank">
