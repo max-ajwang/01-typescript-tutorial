@@ -11,4 +11,4 @@ let notebook = { title: 'notebook' };
 
 let items: { readonly title: string; cost?: number }[] = [book, pen, notebook]; // readonly and optional property (?)
 
-items[0].title = 'new book'; // Error: Cannot assign to 'title' because it is a read-only property
+// items[0].title = 'new book'; // Error: Cannot assign to 'title' because it is a read-only property
